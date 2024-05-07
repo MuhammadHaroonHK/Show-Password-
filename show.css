@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23303a;
+}
+
+.container{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #d8d0d0;
+    border-radius: 20px;
+}
+
+.area{
+    display: flex;
+    align-items: center;
+}
+
+#password{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#btn{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
